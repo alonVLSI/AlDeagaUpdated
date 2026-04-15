@@ -158,6 +158,42 @@
     font-weight: normal;
     font-style: normal;
   }
+  .meet-box {
+  text-align: center;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  margin: 40px auto;
+  max-width: 700px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-top: 6px solid #0ea5e9;
+  position: relative;
+}
+
+.meet-main {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: #0ea5e9;
+}
+
+.meet-box::after {
+  content: "✨";
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  font-size: 1.5rem;
+}
+.meet-title {
+  font-size: 1.5rem;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.meet-sub {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #334155;
+}
   </style>
 </head>
 <body>
@@ -192,9 +228,8 @@
     <div class="container">
       <div class="intro">
         <h3 style="text-align: center;"><strong>אנשי טיפול -</strong><br></h3>
-        <p>האם אתם מחפשים אמצעי טיפול נגיש, מדוייק ועשיר בכלים טיפוליים יישומיים, שמקדם שינוי אמיתי ועמוק בטיפול בנוער צעירים ומבוגרים שמתמודדים עם חרדה חברתית?</p>
-        <br>
-        <h3 style="font-weight:900;text-offset:4px; text-align: center;"><strong>לכל אדם שמעוניין לבדוק האם סובל מחרדה חברתית וכיצד להתמודד איתה -</strong></h3>
+        <p style="text-align: center;">האם אתם מחפשים אמצעי טיפול נגיש, מדוייק ועשיר בכלים טיפוליים , שמקדם שינוי אמיתי ועמוק בטיפול בנוער צעירים ומבוגרים שמתמודדים עם חרדה חברתית?</p>        <br>
+        <h3 style="font-weight:900;text-offset:4px; text-align: center; margin-bottom:10px"><strong>לכל אדם שמעוניין לבדוק האם סובל מחרדה חברתית וכיצד להתמודד איתה -</strong></h3>
       </div>
       <ul class="question-list">
         <li><span class="icon">⚠</span><span>האם אתה מתמודד עם ביישנות קיצונית, שתיקה ומבוכה עד כדי פחד והימנעות ממצבים חברתיים?</span></li>
@@ -203,9 +238,11 @@
       </ul>
       <div class="blue-banner"><h3>יתכן ואתה מתמודד עם חרדה חברתית.</h3></div>
 
-      <p class="meet-book" style="margin-top:32px; color:#6e9ab5">
-        הכירו את <span>"אל דאגה"</span> - ספר לטיפול בחרדה חברתית.
-      </p>
+<div class="meet-box">
+  <p class="meet-title">הכירו את</p>
+  <p class="meet-main" style="font-family: 'GveretLevin', sans-serif;">"אל דאגה"</p>
+  <p class="meet-sub">ספר וערכת קלפים לטיפול בחרדה חברתית</p>
+</div>
 
     <div class="hero" style="display:flex;justify-content:center;margin-bottom:30px;">
       <img src="images\page1.jpeg" alt="עמוד מתוך הספר אל דאגה חרדה חברתית">

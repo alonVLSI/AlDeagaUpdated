@@ -13,6 +13,7 @@
 <meta property="og:description" content="ספר וכלים מעשיים להתמודדות עם חרדה חברתית כולל ערכת קלפים טיפולית.">
 <meta property="og:image" content="https://aldeagadafnapeled.netlify.app/images/kricha.png">
 <meta property="og:type" content="website">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -354,7 +355,13 @@
 
     function handlePurchase() {
       window.location.href = purchaseUrls[selectedOption];
-    }
+    
+		  window.onload = function() {
+    var s = document.createElement('script');
+    s.setAttribute('data-account', 'VZA8XqqwST');
+    s.setAttribute('data-position', '5'); // בוחר מיקום
+    s.src = 'https://cdn.userway.org/widget.js';
+    document.body.appendChild(s);
   </script>
 
 

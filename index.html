@@ -18,17 +18,48 @@
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "אל דאגה - ספר לטיפול בחרדה חברתית",
-  "author": {
-    "@type": "Person",
+  "name": "אל דאגה - ספר לטיפול בחרדה חברתית + ערכת קלפים",
+  "image": "https://aldeagadafnapeled.netlify.app/images/kricha.png",
+  "description": "ספר וכלים טיפוליים בשיטת CBT להתמודדות עם חרדה חברתית מאת דפי פלד דננברג. כולל ערכת קלפים טיפולית.",
+  "brand": {
+    "@type": "Brand",
     "name": "דפי פלד דננברג"
   },
-  "description": "ספר וכלים טיפוליים בשיטת CBT להתמודדות עם חרדה חברתית",
   "offers": {
     "@type": "Offer",
-    "price": "150",
+    "url": "https://aldeagadafnapeled.netlify.app/",
     "priceCurrency": "ILS",
-    "availability": "https://schema.org/InStock"
+    "price": "150",
+    "availability": "https://schema.org/InStock",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "30",
+        "currency": "ILS"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnPolicyContactless",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomerPays"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "1"
   }
 }
 </script>
